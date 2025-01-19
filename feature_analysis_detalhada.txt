@@ -1,0 +1,1401 @@
+Coluna: RPAKREP_VEHICLE_HKEY
+Tipo: object
+Valores únicos: 87581
+Valores vazios: 0 (0.00%)
+Valores mais frequentes:
+RPAKREP_VEHICLE_HKEY
+167d7f2d051dd1002608d0dd206b7aee    25
+58ce3b42145d9374676febf642726fea    18
+ae2d6eff465cdb484521ef8adb5797c1    18
+dbbcb2fc56f8256433f78eb35829037c    18
+d3dd1d948ca9d05dcba02777802014b7    18
+--------------------------------------------------
+Coluna: COMPANY
+Tipo: float64
+Valores únicos: 17
+Valores vazios: 31 (0.03%)
+Estatísticas:
+count    99071.000000
+mean        22.368806
+std         13.135684
+min          0.000000
+25%         12.000000
+50%         18.000000
+75%         33.000000
+max         72.000000
+Name: COMPANY, dtype: float64
+Correlação com LAID_UP_TIME: -0.0637
+--------------------------------------------------
+Coluna: OFFICE
+Tipo: object
+Valores únicos: 111
+Valores vazios: 65 (0.07%)
+Valores mais frequentes:
+OFFICE
+46    7825
+20    5219
+10    4387
+K1    4115
+P1    3994
+--------------------------------------------------
+Coluna: OFFICE_MAIN_BRAND
+Tipo: object
+Valores únicos: 15
+Valores vazios: 2143 (2.16%)
+Valores mais frequentes:
+OFFICE_MAIN_BRAND
+FOR    46773
+WDB    13285
+V      13008
+VOL     7076
+BMW     5753
+--------------------------------------------------
+Coluna: CHASSIS_NUMBER
+Tipo: object
+Valores únicos: 86254
+Valores vazios: 31 (0.03%)
+Valores mais frequentes:
+CHASSIS_NUMBER
+WVWZZZCDXPW163939    25
+WVGZZZCSZPY044427    18
+WVGZZZCR9RD000592    18
+WVWZZZCD9PW026815    18
+WVGZZZC1ZPY117444    18
+--------------------------------------------------
+Coluna: MANUFACTURER_SHORT
+Tipo: object
+Valores únicos: 77
+Valores vazios: 63 (0.06%)
+Valores mais frequentes:
+MANUFACTURER_SHORT
+FOR    33635
+WDB    12228
+V      10487
+OPE     6059
+VOL     5513
+--------------------------------------------------
+Coluna: MANUFACTURER
+Tipo: object
+Valores únicos: 97
+Valores vazios: 84 (0.08%)
+Valores mais frequentes:
+MANUFACTURER
+Ford             33635
+Mercedes-Benz    11874
+Volkswagen       10487
+Opel              6059
+Volvo             5513
+--------------------------------------------------
+Coluna: VEHICLE_GROUP
+Tipo: object
+Valores únicos: 613
+Valores vazios: 140 (0.14%)
+Valores mais frequentes:
+VEHICLE_GROUP
+FOC    8266
+KUG    7465
+PUM    3405
+TNC    3063
+FIE    2265
+--------------------------------------------------
+Coluna: VEHICLE_TYPE
+Tipo: object
+Valores únicos: 13706
+Valores vazios: 108 (0.11%)
+Valores mais frequentes:
+VEHICLE_TYPE
+KUGA CX482E                  1318
+Puma 1.0 EcoBoost Hybrid     1214
+Focus Turnier 1.0 EcoBoos     925
+V362 TRANSIT MCA              780
+Kuga 2.5 Duratec PHEV ST-     745
+--------------------------------------------------
+Coluna: MODEL_CODE
+Tipo: object
+Valores únicos: 4999
+Valores vazios: 22198 (22.41%)
+Valores mais frequentes:
+MODEL_CODE
+15    7541
+48    6819
+14    3309
+80    2847
+13    1838
+--------------------------------------------------
+Coluna: VARIANT
+Tipo: object
+Valores únicos: 198
+Valores vazios: 96764 (97.67%)
+Valores mais frequentes:
+VARIANT
+A5UL81B0A0E0    199
+SYHM61B0A033    163
+A5TL81B0A0G0    156
+A5HL6KB0A0F0    135
+A5TL6KB0A0G0    107
+--------------------------------------------------
+Coluna: MILEAGE
+Tipo: float64
+Valores únicos: 32713
+Valores vazios: 31 (0.03%)
+Estatísticas:
+count    9.907100e+04
+mean     3.070335e+04
+std      1.873101e+05
+min      0.000000e+00
+25%      1.000000e+01
+50%      5.277000e+03
+75%      2.693200e+04
+max      9.960005e+06
+Name: MILEAGE, dtype: float64
+Correlação com LAID_UP_TIME: -0.0103
+--------------------------------------------------
+Coluna: OPERATING_HOURS
+Tipo: float64
+Valores únicos: 6
+Valores vazios: 31 (0.03%)
+Estatísticas:
+count    99071.000000
+mean         0.275449
+std         56.320973
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max      17140.000000
+Name: OPERATING_HOURS, dtype: float64
+Correlação com LAID_UP_TIME: -0.0004
+--------------------------------------------------
+Coluna: MILAGE_IN_FIELD
+Tipo: float64
+Valores únicos: 1
+Valores vazios: 33 (0.03%)
+Estatísticas:
+count    99071.000000
+mean         0.999667
+std          0.018248
+min          0.000000
+25%          1.000000
+50%          1.000000
+75%          1.000000
+max          1.000000
+Name: MILAGE_IN_FIELD, dtype: float64
+Correlação com LAID_UP_TIME: -0.0079
+--------------------------------------------------
+Coluna: MILAGE_SALES
+Tipo: float64
+Valores únicos: 29551
+Valores vazios: 31 (0.03%)
+Estatísticas:
+count    9.907100e+04
+mean     2.439011e+04
+std      9.621894e+04
+min      0.000000e+00
+25%      0.000000e+00
+50%      3.002000e+03
+75%      2.400000e+04
+max      9.999999e+06
+Name: MILAGE_SALES, dtype: float64
+Correlação com LAID_UP_TIME: -0.0302
+--------------------------------------------------
+Coluna: OPERATING_HOURS_SALES
+Tipo: float64
+Valores únicos: 5
+Valores vazios: 31 (0.03%)
+Estatísticas:
+count    99071.000000
+mean         0.275287
+std         56.320963
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max      17140.000000
+Name: OPERATING_HOURS_SALES, dtype: float64
+Correlação com LAID_UP_TIME: -0.0004
+--------------------------------------------------
+Coluna: RIM_KEY
+Tipo: object
+Valores únicos: 14
+Valores vazios: 99053 (99.98%)
+Valores mais frequentes:
+RIM_KEY
+83800B645     4
+-813671656    2
+080L          1
+2114          1
+8136716566    1
+--------------------------------------------------
+Coluna: COLOR_CODE
+Tipo: object
+Valores únicos: 1561
+Valores vazios: 31425 (31.72%)
+Valores mais frequentes:
+COLOR_CODE
+PN3GZ    4798
+PN4GM    4195
+PN4DQ    2374
+197      1251
+717      1215
+--------------------------------------------------
+Coluna: COLOR_CODE_NAME
+Tipo: object
+Valores únicos: 7
+Valores vazios: 31 (0.03%)
+Valores mais frequentes:
+COLOR_CODE_NAME
+Nicht definiert    91057
+Metallic            6809
+Perlmutt             612
+Matt                 310
+Lackiert             249
+--------------------------------------------------
+Coluna: COLOR
+Tipo: object
+Valores únicos: 4523
+Valores vazios: 3853 (3.89%)
+Valores mais frequentes:
+COLOR
+Frozen White - (PN3GZ)       3606
+siehe Ausstattung            3367
+Deep Black Perleffekt        1923
+Agate Black Metallic         1686
+Agate Black Metallic - (P    1639
+--------------------------------------------------
+Coluna: COLOR_TYPE
+Tipo: object
+Valores únicos: 7
+Valores vazios: 69 (0.07%)
+Valores mais frequentes:
+COLOR_TYPE
+N    91046
+1     6802
+2      592
+4      310
+6      249
+--------------------------------------------------
+Coluna: UPHOLSTERY_CODE
+Tipo: object
+Valores únicos: 1624
+Valores vazios: 30946 (31.24%)
+Valores mais frequentes:
+UPHOLSTERY_CODE
+5ZTHM    2490
+NZ4      2394
+11UZ7    2239
+3KPZH    1753
+651      1292
+--------------------------------------------------
+Coluna: UPHOLSTERY
+Tipo: object
+Valores únicos: 4535
+Valores vazios: 3522 (3.56%)
+Valores mais frequentes:
+UPHOLSTERY
+Stoffpolsterung in Anthra    6360
+Schwarz                      6006
+siehe Ausstattung            4981
+Stoff Anthrazit              3223
+Ledernachbildung ARTICO/M    2621
+--------------------------------------------------
+Coluna: UPHOLSTERY_CODE_ALT
+Tipo: object
+Valores únicos: 7
+Valores vazios: 71 (0.07%)
+Valores mais frequentes:
+UPHOLSTERY_CODE_ALT
+N    90343
+5     7427
+1      831
+2      211
+4      159
+--------------------------------------------------
+Coluna: CERTIFICATE_TYPE
+Tipo: object
+Valores únicos: 12
+Valores vazios: 99056 (99.98%)
+Valores mais frequentes:
+CERTIFICATE_TYPE
+216D ACTIVE TOURER    2
+DBX                   2
+RR SPORT 3.0 SDV6     2
+DS00202852            1
+?                     1
+--------------------------------------------------
+Coluna: CERTIFICATE_TYPE_DATE
+Tipo: float64
+Valores únicos: 1
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: CERTIFICATE_TYPE_DATE, dtype: float64
+Correlação com LAID_UP_TIME: Não aplicável (variância zero)
+--------------------------------------------------
+Coluna: FACTORY_NUMBER
+Tipo: object
+Valores únicos: 135
+Valores vazios: 98896 (99.82%)
+Valores mais frequentes:
+FACTORY_NUMBER
+WÃœ-JS 160           15
+WV2ZZZ7HZRH022782     8
+WV2ZZZ7HZRH021748     5
+NUR SOMMERRÃ„DER      4
+TMBJJ7NX2LY024239     4
+--------------------------------------------------
+Coluna: ENGINE_ID
+Tipo: object
+Valores únicos: 22101
+Valores vazios: 63778 (64.38%)
+Valores mais frequentes:
+ENGINE_ID
+DLAA    546
+0       354
+DPCA    345
+DXDB    325
+DTSB    293
+--------------------------------------------------
+Coluna: ENGINE_TYPE
+Tipo: object
+Valores únicos: 1224
+Valores vazios: 13011 (13.13%)
+Valores mais frequentes:
+ENGINE_TYPE
+4 Zyl. Reihe-Motor -    15060
+BITTE MOT-ID PFLEGEN     9445
+3 Zyl. Reihe-Motor -     5853
+4 Zylinder Reihe-Mot     4721
+Elektromotor             3723
+--------------------------------------------------
+Coluna: ENGINE_ID_ALT
+Tipo: object
+Valores únicos: 844
+Valores vazios: 60776 (61.35%)
+Valores mais frequentes:
+ENGINE_ID_ALT
+*      7933
+XXX    2296
+NWA    1701
+.      1576
+NWS    1336
+--------------------------------------------------
+Coluna: TRANSMISSION
+Tipo: object
+Valores únicos: 5969
+Valores vazios: 79139 (79.88%)
+Valores mais frequentes:
+TRANSMISSION
+V      794
+Z      642
+U      600
+X      503
+VHQ    296
+--------------------------------------------------
+Coluna: TRANSMISSION_TYPE
+Tipo: object
+Valores únicos: 680
+Valores vazios: 12539 (12.66%)
+Valores mais frequentes:
+TRANSMISSION_TYPE
+6-Gang Manuelles Get    11400
+8-Gang Automatik         8682
+Automatik                5810
+6 Gang Schalt-Getrie     5530
+9-Gang Automatik         5281
+--------------------------------------------------
+Coluna: TRANSMISSION_ID
+Tipo: object
+Valores únicos: 215
+Valores vazios: 82788 (83.56%)
+Valores mais frequentes:
+TRANSMISSION_ID
+NXZ    1585
+NX1    1475
+BXB     963
+FAA     829
+0ZB     742
+--------------------------------------------------
+Coluna: TRANSMISSION_SHORT
+Tipo: object
+Valores únicos: 13
+Valores vazios: 698 (0.70%)
+Valores mais frequentes:
+TRANSMISSION_SHORT
+Z    48477
+N    26008
+Y    23670
+4      108
+R       49
+--------------------------------------------------
+Coluna: TRANSMISSION_NAME
+Tipo: object
+Valores únicos: 12
+Valores vazios: 67 (0.07%)
+Valores mais frequentes:
+TRANSMISSION_NAME
+Automatic                48477
+Nicht definiert          26639
+Handschaltung            23670
+5 G-Mechanisch             117
+Doppkupplungsgetriebe       49
+--------------------------------------------------
+Coluna: RIMS
+Tipo: object
+Valores únicos: 57
+Valores vazios: 99003 (99.93%)
+Valores mais frequentes:
+RIMS
+19" 5-DOPPELSPEICHEN    3
+19" 10-SPEICHEN         3
+22" STYLE 9012          3
+20" STYLE 5051          3
+NAOS 225/55 R16W        2
+--------------------------------------------------
+Coluna: FRONT_TIRES
+Tipo: object
+Valores únicos: 81
+Valores vazios: 98953 (99.88%)
+Valores mais frequentes:
+FRONT_TIRES
+235/55 R19 V       11
+225/60 R18 104V     4
+215/55 R17 94V      4
+255/45 R20 V        3
+195/60 R15 H        3
+--------------------------------------------------
+Coluna: FRONT_TIRES_CONDITION
+Tipo: float64
+Valores únicos: 1
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: FRONT_TIRES_CONDITION, dtype: float64
+Correlação com LAID_UP_TIME: Não aplicável (variância zero)
+--------------------------------------------------
+Coluna: REAR_TIRES
+Tipo: object
+Valores únicos: 76
+Valores vazios: 98957 (99.88%)
+Valores mais frequentes:
+REAR_TIRES
+235/55 R19 V       11
+225/60 R18 104V     5
+215/55 R17 94V      4
+255/45 R20 V        3
+265/60 R18 T        3
+--------------------------------------------------
+Coluna: REAR_TIRES_CONDITION
+Tipo: float64
+Valores únicos: 1
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: REAR_TIRES_CONDITION, dtype: float64
+Correlação com LAID_UP_TIME: Não aplicável (variância zero)
+--------------------------------------------------
+Coluna: NUMBER_DOORS
+Tipo: float64
+Valores únicos: 6
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         3.430641
+std          2.162303
+min          0.000000
+25%          0.000000
+50%          5.000000
+75%          5.000000
+max          5.000000
+Name: NUMBER_DOORS, dtype: float64
+Correlação com LAID_UP_TIME: 0.0212
+--------------------------------------------------
+Coluna: NUMBER_SEATS
+Tipo: float64
+Valores únicos: 14
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         3.437605
+std          2.360008
+min         -1.000000
+25%          0.000000
+50%          5.000000
+75%          5.000000
+max         23.000000
+Name: NUMBER_SEATS, dtype: float64
+Correlação com LAID_UP_TIME: 0.0240
+--------------------------------------------------
+Coluna: PERMITTED_TOTAL_WEIGHT
+Tipo: float64
+Valores únicos: 545
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean       243.277629
+std        662.088737
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max      20075.000000
+Name: PERMITTED_TOTAL_WEIGHT, dtype: float64
+Correlação com LAID_UP_TIME: -0.0145
+--------------------------------------------------
+Coluna: MAX_TRAILOR_LOAD
+Tipo: float64
+Valores únicos: 73
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean        77.232500
+std        363.941079
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max       3500.000000
+Name: MAX_TRAILOR_LOAD, dtype: float64
+Correlação com LAID_UP_TIME: -0.0088
+--------------------------------------------------
+Coluna: CURB_WEIGHT
+Tipo: float64
+Valores únicos: 1526
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean      1075.033683
+std        872.209984
+min          0.000000
+25%          0.000000
+50%       1344.000000
+75%       1748.000000
+max      19855.000000
+Name: CURB_WEIGHT, dtype: float64
+Correlação com LAID_UP_TIME: 0.0455
+--------------------------------------------------
+Coluna: YEAR_CONSTRUCTION
+Tipo: float64
+Valores únicos: 51
+Valores vazios: 24705 (24.94%)
+Estatísticas:
+count    99071.000000
+mean      1516.707341
+std        874.489389
+min          0.000000
+25%       1995.000000
+50%       2021.000000
+75%       2023.000000
+max       2033.000000
+Name: YEAR_CONSTRUCTION, dtype: float64
+Correlação com LAID_UP_TIME: 0.0351
+--------------------------------------------------
+Coluna: CONSTRUCTION_MONTH
+Tipo: float64
+Valores únicos: 12
+Valores vazios: 28751 (29.02%)
+Estatísticas:
+count    99071.000000
+mean         4.514944
+std          4.137195
+min          0.000000
+25%          0.000000
+50%          4.000000
+75%          8.000000
+max         12.000000
+Name: CONSTRUCTION_MONTH, dtype: float64
+Correlação com LAID_UP_TIME: 0.0499
+--------------------------------------------------
+Coluna: NUMBER_AXLE
+Tipo: float64
+Valores únicos: 3
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         0.580382
+std          0.907689
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          2.000000
+max          2.000000
+Name: NUMBER_AXLE, dtype: float64
+Correlação com LAID_UP_TIME: 0.0622
+--------------------------------------------------
+Coluna: NUMBER_ENGINE_CYLINDER
+Tipo: float64
+Valores únicos: 10
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         2.543105
+std          2.031799
+min          0.000000
+25%          0.000000
+50%          3.000000
+75%          4.000000
+max         12.000000
+Name: NUMBER_ENGINE_CYLINDER, dtype: float64
+Correlação com LAID_UP_TIME: -0.0173
+--------------------------------------------------
+Coluna: REPAIR_RKZ
+Tipo: float64
+Valores únicos: 1
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: REPAIR_RKZ, dtype: float64
+Correlação com LAID_UP_TIME: Não aplicável (variância zero)
+--------------------------------------------------
+Coluna: OPTICAL_CONDITION
+Tipo: float64
+Valores únicos: 2
+Valores vazios: 25964 (26.21%)
+Estatísticas:
+count    99071.000000
+mean         0.000030
+std          0.009531
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          3.000000
+Name: OPTICAL_CONDITION, dtype: float64
+Correlação com LAID_UP_TIME: 0.0041
+--------------------------------------------------
+Coluna: TECHNICAL_CONDITION
+Tipo: float64
+Valores únicos: 1
+Valores vazios: 26014 (26.26%)
+Estatísticas:
+count    99071.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: TECHNICAL_CONDITION, dtype: float64
+Correlação com LAID_UP_TIME: Não aplicável (variância zero)
+--------------------------------------------------
+Coluna: ACCIDENT_VEHICLE
+Tipo: object
+Valores únicos: 2
+Valores vazios: 881 (0.89%)
+Valores mais frequentes:
+ACCIDENT_VEHICLE
+N    89235
+1     8955
+--------------------------------------------------
+Coluna: COMMISSION_NUMBER
+Tipo: object
+Valores únicos: 86591
+Valores vazios: 360 (0.36%)
+Valores mais frequentes:
+COMMISSION_NUMBER
+EXD/39681971/K2    25
+EX/40536448/K2     18
+EXD/RXK124/K2      18
+EXD/40654209/K2    18
+EXD/WGY686         18
+--------------------------------------------------
+Coluna: HORSEPOWER
+Tipo: float64
+Valores únicos: 385
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean       149.894167
+std        107.523326
+min          0.000000
+25%        109.000000
+50%        145.000000
+75%        190.000000
+max      13067.000000
+Name: HORSEPOWER, dtype: float64
+Correlação com LAID_UP_TIME: 0.0079
+--------------------------------------------------
+Coluna: KW
+Tipo: float64
+Valores únicos: 319
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean       110.813780
+std         78.436541
+min          0.000000
+25%         81.000000
+50%        110.000000
+75%        137.000000
+max       9611.000000
+Name: KW, dtype: float64
+Correlação com LAID_UP_TIME: 0.0015
+--------------------------------------------------
+Coluna: CCM
+Tipo: float64
+Valores únicos: 328
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean      1521.035369
+std       2533.128794
+min       -119.000000
+25%        999.000000
+50%       1498.000000
+75%       1995.000000
+max      98700.000000
+Name: CCM, dtype: float64
+Correlação com LAID_UP_TIME: -0.0077
+--------------------------------------------------
+Coluna: NUMBER_OWNERS
+Tipo: float64
+Valores únicos: 10
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         0.569450
+std          0.721303
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          9.000000
+Name: NUMBER_OWNERS, dtype: float64
+Correlação com LAID_UP_TIME: -0.0045
+--------------------------------------------------
+Coluna: IS_USED_CAR
+Tipo: float64
+Valores únicos: 2
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         0.459388
+std          0.498350
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          1.000000
+max          1.000000
+Name: IS_USED_CAR, dtype: float64
+Correlação com LAID_UP_TIME: 0.0492
+--------------------------------------------------
+Coluna: LEASING_CONTRACT_DATE
+Tipo: datetime64[ns]
+Valores únicos: 1170
+Valores vazios: 88146 (88.97%)
+Tipo de dado não suportado para análise de correlação.
+--------------------------------------------------
+Coluna: LEASING_START
+Tipo: datetime64[ns]
+Valores únicos: 709
+Valores vazios: 81965 (82.73%)
+Tipo de dado não suportado para análise de correlação.
+--------------------------------------------------
+Coluna: LEASING_END
+Tipo: datetime64[ns]
+Valores únicos: 2362
+Valores vazios: 77207 (77.93%)
+Tipo de dado não suportado para análise de correlação.
+--------------------------------------------------
+Coluna: LEASING_MILAGE
+Tipo: float64
+Valores únicos: 378
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    9.907100e+04
+mean     7.041833e+03
+std      2.633801e+04
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      0.000000e+00
+max      2.000016e+06
+Name: LEASING_MILAGE, dtype: float64
+Correlação com LAID_UP_TIME: -0.0406
+--------------------------------------------------
+Coluna: PAINT_TYPE
+Tipo: float64
+Valores únicos: 0
+Valores vazios: 99071 (100.00%)
+Estatísticas:
+count    99071.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: PAINT_TYPE, dtype: float64
+Correlação com LAID_UP_TIME: Não aplicável (variância zero)
+--------------------------------------------------
+Coluna: FINANCING_TYPE
+Tipo: object
+Valores únicos: 6
+Valores vazios: 2784 (2.81%)
+Valores mais frequentes:
+FINANCING_TYPE
+1    60314
+3    19987
+2    10529
+5     2931
+4     2356
+--------------------------------------------------
+Coluna: FINANCING_TYPE_NAME
+Tipo: object
+Valores únicos: 6
+Valores vazios: 2784 (2.81%)
+Valores mais frequentes:
+FINANCING_TYPE_NAME
+Kauf             60314
+Leasing          19987
+Finanzierung     10529
+Leasing Fremd     2931
+Buyback           2356
+--------------------------------------------------
+Coluna: KAT_VEHICLE
+Tipo: object
+Valores únicos: 3
+Valores vazios: 69 (0.07%)
+Valores mais frequentes:
+KAT_VEHICLE
+N    97130
+1     1869
+9        3
+--------------------------------------------------
+Coluna: FUEL_TYPE
+Tipo: object
+Valores únicos: 14
+Valores vazios: 100 (0.10%)
+Valores mais frequentes:
+FUEL_TYPE
+2    40096
+3    25237
+N    13935
+9    11865
+4     4848
+--------------------------------------------------
+Coluna: FUEL_TYPE_NAME
+Tipo: object
+Valores únicos: 11
+Valores vazios: 67 (0.07%)
+Valores mais frequentes:
+FUEL_TYPE_NAME
+Super       40096
+Andere      25835
+Diesel      25237
+Elektro      4848
+Bleifrei     1382
+--------------------------------------------------
+Coluna: DRIVE_TYPE
+Tipo: object
+Valores únicos: 5
+Valores vazios: 69 (0.07%)
+Valores mais frequentes:
+DRIVE_TYPE
+1    43671
+N    34488
+3    13990
+2     6690
+9      163
+--------------------------------------------------
+Coluna: DRIVE_TYPE_NAME
+Tipo: object
+Valores únicos: 5
+Valores vazios: 67 (0.07%)
+Valores mais frequentes:
+DRIVE_TYPE_NAME
+Vorderrad          43671
+Nicht definiert    34490
+Allrad             13990
+Hinterrad           6690
+Andere               163
+--------------------------------------------------
+Coluna: VEHICLE_MODEL_ID
+Tipo: float64
+Valores únicos: 10
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         3.008721
+std          2.617908
+min          0.000000
+25%          0.000000
+50%          3.000000
+75%          5.000000
+max          9.000000
+Name: VEHICLE_MODEL_ID, dtype: float64
+Correlação com LAID_UP_TIME: 0.0697
+--------------------------------------------------
+Coluna: VEHICLE_MODEL_ID_NAME
+Tipo: object
+Valores únicos: 10
+Valores vazios: 67 (0.07%)
+Valores mais frequentes:
+VEHICLE_MODEL_ID_NAME
+Keine Zuteilung         27934
+Gelaendewagen/Pickup    27805
+Limousine               14435
+Kombi                   13206
+Nutzfahrzeuge            8232
+--------------------------------------------------
+Coluna: COMMISSION_TYPE
+Tipo: object
+Valores únicos: 5
+Valores vazios: 67 (0.07%)
+Valores mais frequentes:
+COMMISSION_TYPE
+2    46213
+1    45331
+5     3260
+T     3046
+6     1154
+--------------------------------------------------
+Coluna: COMMISSION_TYPE_NAME
+Tipo: object
+Valores únicos: 5
+Valores vazios: 67 (0.07%)
+Valores mais frequentes:
+COMMISSION_TYPE_NAME
+Gebrauchtwagen           46213
+Neuwagen                 45331
+Vorfuehrwagen             3260
+Kurzzulassung             3046
+Dienstwagen/Mietwagen     1154
+--------------------------------------------------
+Coluna: DEMONSTRATION_STATUS
+Tipo: object
+Valores únicos: 5
+Valores vazios: 98168 (99.09%)
+Valores mais frequentes:
+DEMONSTRATION_STATUS
+2    349
+T    311
+5    164
+6     78
+9      1
+--------------------------------------------------
+Coluna: PURCHASE_DATE
+Tipo: datetime64[ns]
+Valores únicos: 971
+Valores vazios: 2070 (2.09%)
+Tipo de dado não suportado para análise de correlação.
+--------------------------------------------------
+Coluna: PURCHASE_BOOKING_DATE
+Tipo: datetime64[ns]
+Valores únicos: 960
+Valores vazios: 2898 (2.93%)
+Tipo de dado não suportado para análise de correlação.
+--------------------------------------------------
+Coluna: PURCHASE_MILAGE
+Tipo: float64
+Valores únicos: 28377
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    9.907100e+04
+mean     2.209310e+04
+std      7.353615e+04
+min      0.000000e+00
+25%      0.000000e+00
+50%      3.000000e+00
+75%      2.161400e+04
+max      9.000009e+06
+Name: PURCHASE_MILAGE, dtype: float64
+Correlação com LAID_UP_TIME: -0.0606
+--------------------------------------------------
+Coluna: PURCHASE_OPERATION_HOURS
+Tipo: float64
+Valores únicos: 1
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: PURCHASE_OPERATION_HOURS, dtype: float64
+Correlação com LAID_UP_TIME: Não aplicável (variância zero)
+--------------------------------------------------
+Coluna: PRICE_LIST
+Tipo: object
+Valores únicos: 8145
+Valores vazios: 81699 (82.47%)
+Valores mais frequentes:
+PRICE_LIST
+27385      147
+27185      119
+44990      101
+35155       76
+89642.7     71
+--------------------------------------------------
+Coluna: DAY_OF_REGISTRATION
+Tipo: object
+Valores únicos: 1
+Valores vazios: 55884 (56.41%)
+Valores mais frequentes:
+DAY_OF_REGISTRATION
+N    43187
+--------------------------------------------------
+Coluna: AT_LOCATION_SINCE
+Tipo: float64
+Valores únicos: 713
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    9.907100e+04
+mean     3.648985e+05
+std      5.630194e+05
+min      0.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      1.230314e+06
+max      1.260104e+06
+Name: AT_LOCATION_SINCE, dtype: float64
+Correlação com LAID_UP_TIME: 0.0883
+--------------------------------------------------
+Coluna: LAID_UP_TIME
+Tipo: float64
+Valores únicos: 700
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean        88.212242
+std        103.051489
+min          0.000000
+25%         22.000000
+50%         59.000000
+75%        127.000000
+max       8782.000000
+Name: LAID_UP_TIME, dtype: float64
+Correlação com LAID_UP_TIME: 1.0000
+--------------------------------------------------
+Coluna: SOLD_CUSTOMER_ID
+Tipo: object
+Valores únicos: 43941
+Valores vazios: 74 (0.07%)
+Valores mais frequentes:
+SOLD_CUSTOMER_ID
+493187    3425
+49        3240
+40        2512
+30        1538
+316346    1333
+--------------------------------------------------
+Coluna: SOLD_INVOICE_COSTUMER_ID
+Tipo: object
+Valores únicos: 32681
+Valores vazios: 100 (0.10%)
+Valores mais frequentes:
+SOLD_INVOICE_COSTUMER_ID
+49        3247
+1470      2686
+40        2513
+201991    1886
+40963     1679
+--------------------------------------------------
+Coluna: MILAGE_SALE
+Tipo: float64
+Valores únicos: 29990
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    9.907100e+04
+mean     2.421175e+04
+std      1.008452e+05
+min      0.000000e+00
+25%      0.000000e+00
+50%      1.000000e+02
+75%      2.373850e+04
+max      9.999999e+06
+Name: MILAGE_SALE, dtype: float64
+Correlação com LAID_UP_TIME: -0.0174
+--------------------------------------------------
+Coluna: OPERATION_HOURS_SALE
+Tipo: float64
+Valores únicos: 5
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         0.275277
+std         56.320963
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max      17140.000000
+Name: OPERATION_HOURS_SALE, dtype: float64
+Correlação com LAID_UP_TIME: -0.0004
+--------------------------------------------------
+Coluna: SOLD_INVOICE_COSTUMER_ID2
+Tipo: object
+Valores únicos: 32681
+Valores vazios: 100 (0.10%)
+Valores mais frequentes:
+SOLD_INVOICE_COSTUMER_ID2
+49        3247
+1470      2686
+40        2513
+201991    1886
+40963     1679
+--------------------------------------------------
+Coluna: CUSTOMER_TYPE
+Tipo: object
+Valores únicos: 6
+Valores vazios: 43011 (43.41%)
+Valores mais frequentes:
+CUSTOMER_TYPE
+K    52724
+U     2217
+S     1082
+V       31
+I        3
+--------------------------------------------------
+Coluna: CUSTOMER_GROUP
+Tipo: object
+Valores únicos: 45
+Valores vazios: 43011 (43.41%)
+Valores mais frequentes:
+CUSTOMER_GROUP
+EVPR    18883
+EVGW    10178
+GROS     7013
+GWH      3944
+INT      2991
+--------------------------------------------------
+Coluna: CUSTOMER_GROUP_NAME
+Tipo: object
+Valores únicos: 48
+Valores vazios: 43012 (43.42%)
+Valores mais frequentes:
+CUSTOMER_GROUP_NAME
+EV privat               18883
+EV gewerblich           10178
+Grossabnehmer            7013
+Gebrauchtwagenhandel     3944
+Interne Kunden           2991
+--------------------------------------------------
+Coluna: CUSTOMER_FEATURE
+Tipo: object
+Valores únicos: 38
+Valores vazios: 43011 (43.41%)
+Valores mais frequentes:
+CUSTOMER_FEATURE
+EVPR    20506
+EVGW    10427
+GROS     7019
+GWH      4062
+INT      3214
+--------------------------------------------------
+Coluna: CUSTOMER_FEATURE_NAME
+Tipo: object
+Valores únicos: 43
+Valores vazios: 43012 (43.42%)
+Valores mais frequentes:
+CUSTOMER_FEATURE_NAME
+Endverbraucher private       20506
+Endverbraucher Gewerblich    10427
+Grossabnehmer                 7019
+Gebrauchtwagenhaendler        4062
+Interne Kunden                3214
+--------------------------------------------------
+Coluna: SALE_CUSTOMER_ID2
+Tipo: object
+Valores únicos: 43941
+Valores vazios: 74 (0.07%)
+Valores mais frequentes:
+SALE_CUSTOMER_ID2
+493187    3425
+49        3240
+40        2512
+30        1538
+316346    1333
+--------------------------------------------------
+Coluna: CUSTOMER_SALE_GROUP
+Tipo: object
+Valores únicos: 47
+Valores vazios: 36941 (37.29%)
+Valores mais frequentes:
+CUSTOMER_SALE_GROUP
+EVPR    22890
+EVGW    13823
+GROS     6509
+GWH      3942
+81       3165
+--------------------------------------------------
+Coluna: CUSTOMER_SALE_GROUP_NAME
+Tipo: object
+Valores únicos: 50
+Valores vazios: 46954 (47.39%)
+Valores mais frequentes:
+CUSTOMER_SALE_GROUP_NAME
+EV privat               20535
+EV gewerblich           10291
+Gebrauchtwagenhandel     3938
+Grossabnehmer            3301
+Interne Kunden           2986
+--------------------------------------------------
+Coluna: CUSTOMER_SALE_GROUP2
+Tipo: object
+Valores únicos: 38
+Valores vazios: 36941 (37.29%)
+Valores mais frequentes:
+CUSTOMER_SALE_GROUP2
+EVPR    24875
+EVGW    14130
+GROS     6518
+GWH      4060
+INT      3209
+--------------------------------------------------
+Coluna: CUSTOMER_SALE_GROUP2_NAME
+Tipo: object
+Valores únicos: 43
+Valores vazios: 36943 (37.29%)
+Valores mais frequentes:
+CUSTOMER_SALE_GROUP2_NAME
+Endverbraucher private       24875
+Endverbraucher Gewerblich    14130
+Grossabnehmer                 6518
+Gebrauchtwagenhaendler        4060
+Interne Kunden                3209
+--------------------------------------------------
+Coluna: SCALED_CURRENT_VALUE
+Tipo: float64
+Valores únicos: 64135
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    9.907100e+04
+mean     1.009436e+03
+std      3.177070e+05
+min      0.000000e+00
+25%      5.176691e-02
+50%      5.703514e-02
+75%      6.292448e-02
+max      1.000000e+08
+Name: SCALED_CURRENT_VALUE, dtype: float64
+Correlação com LAID_UP_TIME: -0.0025
+--------------------------------------------------
+Coluna: SCALED_INVENTURAL_VALUE
+Tipo: float64
+Valores únicos: 15372
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         0.013341
+std          0.031148
+min          0.000000
+25%          0.000000
+50%          0.000000
+75%          0.000000
+max          0.871569
+Name: SCALED_INVENTURAL_VALUE, dtype: float64
+Correlação com LAID_UP_TIME: 0.3095
+--------------------------------------------------
+Coluna: SCALED_REPORT_VALUE
+Tipo: float64
+Valores únicos: 2277
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.000000
+mean         0.944193
+std          0.039527
+min          0.000000
+25%          0.950043
+50%          0.950043
+75%          0.950043
+max          0.963855
+Name: SCALED_REPORT_VALUE, dtype: float64
+Correlação com LAID_UP_TIME: -0.1352
+--------------------------------------------------
+Coluna: SCALED_VALUATION_PRICE
+Tipo: float64
+Valores únicos: 1
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    99071.0
+mean         0.0
+std          0.0
+min          0.0
+25%          0.0
+50%          0.0
+75%          0.0
+max          0.0
+Name: SCALED_VALUATION_PRICE, dtype: float64
+Correlação com LAID_UP_TIME: Não aplicável (variância zero)
+--------------------------------------------------
+Coluna: SCALED_GUIDE_PRICE
+Tipo: float64
+Valores únicos: 18793
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    9.907100e+04
+mean     2.018759e+03
+std      4.493032e+05
+min      0.000000e+00
+25%      2.370730e-03
+50%      4.372970e-03
+75%      6.091590e-03
+max      1.000000e+08
+Name: SCALED_GUIDE_PRICE, dtype: float64
+Correlação com LAID_UP_TIME: -0.0029
+--------------------------------------------------
+Coluna: SCALED_TOTAL_SALES_PRICE_BASIS
+Tipo: float64
+Valores únicos: 23079
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    9.907100e+04
+mean     1.009397e+03
+std      3.177070e+05
+min      0.000000e+00
+25%      1.085947e-02
+50%      1.800232e-02
+75%      2.583623e-02
+max      1.000000e+08
+Name: SCALED_TOTAL_SALES_PRICE_BASIS, dtype: float64
+Correlação com LAID_UP_TIME: -0.0025
+--------------------------------------------------
+Coluna: SCALED_TOTAL_SALE_PRICE
+Tipo: float64
+Valores únicos: 39171
+Valores vazios: 67 (0.07%)
+Estatísticas:
+count    9.907100e+04
+mean     1.009395e+03
+std      3.177070e+05
+min      0.000000e+00
+25%      1.060509e-02
+50%      1.578015e-02
+75%      2.187983e-02
+max      1.000000e+08
+Name: SCALED_TOTAL_SALE_PRICE, dtype: float64
+Correlação com LAID_UP_TIME: -0.0025
+--------------------------------------------------

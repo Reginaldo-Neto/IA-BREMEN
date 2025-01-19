@@ -17,16 +17,19 @@ rows_after = df.shape[0]
 rows_removed = rows_before - rows_after
 
 # 3. Distribuição das amostras de acordo com a classe de saída
-class_distribution = df[target].value_counts()
+class_distribution = df[target].value_counts().sort_values(ascending=False)
 
 # 4. Para cada coluna, quantos valores diferentes aparecem
-unique_values_per_column = df.nunique()
+unique_values_per_column = df.nunique().sort_values(ascending=False)
 
 # 5. Para cada coluna, quantos valores vazios existem
-missing_values_per_column = df.isnull().sum()
+missing_values_per_column = df.isnull().sum().sort_values(ascending=False)
+
+# 6. Estatísticas descritivas para LAID_UP_TIME
+laid_up_description = df[target].describe()
 
 # Salvar a saída em um arquivo de texto
-output_path = "feedback.txt"
+output_path = "feedback_v2.txt"
 with open(output_path, "w", encoding="utf-8") as f:
     f.write(f"1. Total de linhas no dataset: {total_rows}\n\n")
     f.write(f"2. Linhas removidas com LAID_UP_TIME vazio: {rows_removed}\n")
@@ -37,5 +40,7 @@ with open(output_path, "w", encoding="utf-8") as f:
     f.write(unique_values_per_column.to_string())
     f.write("\n\n5. Valores vazios por coluna:\n")
     f.write(missing_values_per_column.to_string())
+    f.write("\n\n6. Estatísticas descritivas para LAID_UP_TIME:\n")
+    f.write(laid_up_description.to_string())
 
 print(f"Arquivo de feedback gerado: {output_path}")
