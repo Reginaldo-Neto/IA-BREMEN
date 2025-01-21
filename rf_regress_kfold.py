@@ -5,12 +5,16 @@ from sklearn.metrics import mean_squared_error
 import numpy as np
 
 # Carregar o Dataset 1 (limpo)
-dataset1_path = "cleaned_train_dataset.xlsx"
+dataset1_path = "cleaned_train_dataset_v2.xlsx"
 df = pd.read_excel(dataset1_path)
+
+# Excluir linhas com valores vazios na coluna 'LAID_UP_TIME'
+df = df.dropna(subset=['LAID_UP_TIME'])
 
 # Separar features (X) e target (y)
 X = df.drop(columns=['LAID_UP_TIME', 'CHASSIS_NUMBER'])  # Excluímos o alvo e o CHASSIS_NUMBER
 y = df['LAID_UP_TIME']
+print(f"Number of missing values in y: {y.isna().sum()}")
 
 # Reservar uma parte para teste interno (20% do Dataset 1)
 X_train, X_test_internal, y_train, y_test_internal = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -49,3 +53,8 @@ test_internal_rmse = np.sqrt(mean_squared_error(y_test_internal, y_pred_test_int
 # Resultados
 print(f"RMSE médio na validação cruzada: {mean_rmse:.4f} ± {std_rmse:.4f}")
 print(f"RMSE no teste interno: {test_internal_rmse:.4f}")
+
+# FINAL RESULTS
+# Number of missing values in y: 0
+# RMSE médio na validação cruzada: 47.0124 ± 15.4126
+# RMSE no teste interno: 66.3128
