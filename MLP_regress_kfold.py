@@ -75,3 +75,4 @@ joblib.dump(model, model_filename)
 print(f"Modelo salvo como: {model_filename}")
 
 # FINAL RESULTS
+# RMSE com MLP: 75.7557
